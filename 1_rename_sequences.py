@@ -1,3 +1,4 @@
+# prerequisit: only sequencing files in folder!
 import os
 import pandas as pd
 
@@ -21,7 +22,7 @@ def rename(name_frame):
         file_extensions = file[1]
         file_name = file[0].replace("_", "")
         if file_name in name_frame.index:  # check if filename is in Dataframe
-            new_name = str(name_frame.loc[file_name]["renamed"] + "." + file_extensions)
+            new_name = str(name_frame.loc[file_name]["renamed"] + "." + file_extensions)  # column must be in excel file
             os.rename(os.path.join(path_to_files, files), os.path.join(path_to_files, new_name))
 
 
