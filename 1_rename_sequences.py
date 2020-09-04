@@ -20,7 +20,7 @@ def rename(name_frame):
     for files in os.listdir(path_to_files):
         file = files.split(".")  # split filename and fileextension
         file_extensions = file[1]
-        file_name = file[0].replace("_", "")
+        file_name = file[0]
         if file_name in name_frame.index:  # check if filename is in Dataframe
             new_name = str(name_frame.loc[file_name]["renamed"] + "." + file_extensions)  # column named rename must be in excel file
             os.rename(os.path.join(path_to_files, files), os.path.join(path_to_files, new_name))
