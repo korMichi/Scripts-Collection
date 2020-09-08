@@ -7,3 +7,4 @@
 
 ## Bash commands 
 1) **Tab to FASTA** -> awk '{print ">"$1"\n"$2}' example.txt > example.fasta 
+2) **IGBLAST commandline** -> igblastn -germline_db_V *PATH_TO_DATABASE* -germline_db_D *PATH_TO_DATABASE* -germline_db_J *PATH_TO_DATABASE* -auxiliary_data *PATH_TO_AUXILIARY_DATA* -organism human -outfmt 19 -query input.fasta > output.txt
