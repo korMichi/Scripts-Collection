@@ -4,6 +4,7 @@
 2) **files_puller.py** -> extracts all files from subdirectories
 3) **file_extractor.py** -> extracts files from a named excel list
 4) **trimmed_sequences.py** -> using crowelabs pipeline to extract trimmed sequences from IGBlast
+5) **5_text_extraction.py** -> extracts patterns from overall text
 
 ## Bash commands 
 1) **Tab to FASTA** -> awk '{print ">"$1"\n"$2}' example.txt > example.fasta 
