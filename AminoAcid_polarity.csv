@@ -1,0 +1,21 @@
+﻿Amino-Acid;Single Letter Code;Three Letter Code;Charge;Polarity
+alanine;A;Ala;neutral;nonpolar
+arginine;R;Arg;pos;polar
+asparagine;N;Asn;neutral;polar
+aspartate;D;Asp;neg;polar
+cysteine;C;Cys;neutral;polar
+glycine;G;Gly;neutral;nonpolar
+glutamine;Q;Gln;neutral;polar
+glutamate;E;Glu;neg;polar
+histidine;H;His;pos;polar
+isoleucine;I;Ile;neutral;nonpolar
+leucine;L;Leu;neutral;nonpolar
+lysine;K;Lys;pos;polar
+methionine;M;Met;neutral;nonpolar
+phenylalanine;F;Phe;neutral;nonpolar
+proline;P;Pro;neutral;nonpolar
+serine;S;Ser;neutral;polar
+threonine;T;Thr;neutral;polar
+tryptophan;W;Trp;neutral;nonpolar
+tyrosine;Y;Tyr;neutral;polar
+valine;V;Val;neutral;non
